@@ -1,0 +1,19 @@
+
+Estructura de archivos de proyecto 
+/ProyectoInventarioProductos
+│
+├── server.js // Archivo de entrada principal del servidor
+
+├── package.json
+│
+├── /db/ // Carpeta para la configuración y conexion de la base de datos y MongoDB
+│   ├── mysql.js
+│   └── mongo.js
+│
+├── /controllers/ // Carpeta para los controladores de las rutas
+│   └── syncController.js
+
+├── /routes/ // Carpeta para las rutas de la API
+│   └── syncRoutes.js
+
+├── /mysqldbScript-ProyectoFinalbd3.sql // Script para crear la base de datos y las tablas en MySQL
